@@ -1,5 +1,7 @@
 # Wholesale Dashboard
 
+A modern microservice application using React for the frontend and Node.js (Express) for the backend. Containerized using Docker and ready for CI/CD integration.
+
 ## 📁 Project Structure
 
 src/
@@ -45,3 +47,17 @@ src/
 │ └── formatters.js
 ├── App.jsx
 └── index.js
+
+## 🛠 Tech Stack
+
+- React 18
+- Node.js (Express)
+- Docker & Docker Compose
+- GitHub Actions (CI/CD-ready)
+
+## 🧪 Getting Started (Dev)
+
+```bash
+# Build and run both services
+docker-compose up --build
+```
